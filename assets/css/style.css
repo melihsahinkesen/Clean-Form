@@ -1,0 +1,50 @@
+/*
+* Copyright 2016, Melihsahinkesen
+* www.melihsahinkesen.com
+*/
+
+body { font-family: 'Open Sans', sans-serif; font-weight: 400; }
+section { margin-bottom: 20px; }
+
+/* Nav
+================================================== */
+nav { background-color: #404548; font-size: 1rem; font-weight: 700; }
+nav .nav-link { padding: 10px 0; color: #C7C7C7; }
+nav .nav-link:hover { color: #EAEAEA; }
+nav .nav-link.disabled { color: #9E9E9E; }
+nav .active { color: #679FA7; }
+nav .active:hover { color: #70BDC7; }
+/* Nav-alt ----------------------*/
+nav.alt { margin-bottom: 20px; background-color: #4F5558; font-size: 0.9rem; font-weight: 400; }
+
+
+/* Header
+================================================== */
+header { background-color: #3e4c56; color: #fff; padding: 20px 0; }
+header .text { display: block; font-weight: 600; font-size: 1.3rem;  }
+
+/* Footer
+================================================== */
+footer { background-color: #555; color: #fff; }
+footer .text { display: block; margin: 10px 0; font-weight: 300; font-size: 0.8rem; }
+
+
+
+/* Genel
+================================================== */
+.datepicker { padding: 0; }
+
+
+.form-checkbox { display: inline-block; margin-right: 10px; }
+#f_name_hata,
+#f_tel_hata,
+#mice_name_hata,
+#mice_tel_hata,
+#mice_email_hata { display: none; }
+
+/* Responsive Styles
+================================================== */ 
+@media (max-width: 1199px) {  }
+@media (max-width: 991px)  {  }
+@media (max-width: 767px)  {  }
+@media (max-width: 543px)  {  }
